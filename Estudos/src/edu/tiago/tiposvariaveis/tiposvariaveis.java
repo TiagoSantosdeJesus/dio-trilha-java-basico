@@ -1,7 +1,5 @@
 package edu.tiago.tiposvariaveis;
 
-import javax.print.DocFlavor.STRING;
-
 public class tiposvariaveis {
     public static void main(String[] args) {
         String nome = "Tiago";
