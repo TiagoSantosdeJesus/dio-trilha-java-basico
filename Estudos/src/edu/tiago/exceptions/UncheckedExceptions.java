@@ -20,9 +20,9 @@ public class UncheckedExceptions {
                 continueLooping = false;
             } catch (NumberFormatException e) {
                 e.printStackTrace();
-                JOptionPane.showInputDialog(null, "Entrada inválida, informe um número inteiro: ");
+                JOptionPane.showMessageDialog(null, "Entrada inválida, informe um número inteiro: ");
             } catch (ArithmeticException e) {
-                JOptionPane.showConfirmDialog(null, "Não é possível realizar divisão por 0.");
+                JOptionPane.showMessageDialog(null, "Não é possível realizar divisão por 0.");
             } finally {
                 System.out.println("Fim");
             }
