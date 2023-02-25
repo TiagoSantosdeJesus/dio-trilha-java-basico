@@ -1,5 +1,6 @@
 package edu.tiago.padroesdeprojetos;
 
+import edu.tiago.padroesdeprojetos.facade.Facade;
 import edu.tiago.padroesdeprojetos.singleton.Singleton;
 import edu.tiago.padroesdeprojetos.strategy.Comportamento;
 import edu.tiago.padroesdeprojetos.strategy.ComportamentoDefensivo;
@@ -31,5 +32,9 @@ public class Test {
         robo.mover();
         robo.mover();
         robo.mover();
+
+        // Teste Facade
+        Facade facade = new Facade();
+        facade.migrarCliente("Tiago", "12345678");
     }
 }
