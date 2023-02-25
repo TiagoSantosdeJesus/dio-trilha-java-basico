@@ -1,4 +1,4 @@
-package edu.tiago.padroesdeprojetos;
+package edu.tiago.padroesdeprojetos.singleton;
 
 public class Singleton {
     private static Singleton instancia;
